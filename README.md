@@ -2,17 +2,7 @@
 
 This internship project compares Logistic Regression and Random Forest on historical German credit records. The positive class is high credit risk. It is an educational model based on a small historical dataset.
 
-## Run on Windows
 
-Install Python 3.12. Extract the ZIP, open the CodeAlpha_CreditScoring folder in VS Code, and run these commands in its terminal.
-
-```powershell
-py -3.12 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe train.py
-```
-
-The script prints the metrics and writes them to `results.csv`. The data is included.
 
 ## How it works
 
