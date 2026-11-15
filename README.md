@@ -7,7 +7,7 @@ This internship project compares Logistic Regression and Random Forest on histor
 ## How it works
 
 1. Load the 1,000 records and map original labels 1 and 2 to low risk (0) and high risk (1).
-2. Create `amount_per_month` by dividing the credit amount by the term in months. This is a derived amount and excludes interest.
+2. Created `amount_per_month` by dividing the credit amount by the term in months. This is a derived amount and excludes interest.
 3. Split the data into 800 training and 200 test records. Stratification preserves the class proportions.
 4. Fit the one-hot encoder and numeric scaler on training data using each model's pipeline. Evaluate both models on the same test records.
 5. Compare precision, recall, F1, ROC-AUC and the dataset's error cost. Precision measures how many flagged cases were high risk. Recall measures how many high-risk cases were caught. ROC-AUC measures how well the scores rank high-risk cases above low-risk cases across thresholds.
